@@ -1,14 +1,14 @@
- #this renders your landing page with bank name (C.O.D.E.) and feature cards
+ #this renders your landing page with bank name (D.A.K.A.P) and feature cards
 import streamlit as st
 
 def render_home():
-    st.title("🏦 Welcome to C.O.D.E. Bank")
-    st.markdown("### Your trusted, student digital bank")
+    st.title("🏦 Welcome to D.A.K.A.P Bank")
+    st.markdown("### Your trusted, digital bank")
     st.markdown("---")
 
     # a banner
     banner_url = (
-        "https://images.unsplash.com/photo-1521791136064-7986c2920216"
+        "https://scontent.fabb1-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQNgxqY6A76mCso2MM4BzoUquKr6gxobUTmvGcFwlUP_07nCPEc3GD68KaPUDVg-k8ZYxXslH_DvIuLdHfx0ecQai_LrpX9NPDE5e-YPGC4OKw3u9YYkS4-3n7YhpUwCwkfjhDHou8ReJ2vjOZFVerb4Dk_-6w.jpeg?_nc_ht=scontent.fabb1-1.fna.fbcdn.net&_nc_gid=5u6u0FCj__4MsFtebsTYrQ&_nc_cat=110&_nc_oc=AdmAugNU865LjtGMHiH1ZiNy9fPmwbDU2EdU5cm5u3t5qYi6aIk7RbHmRnb0cEMwo8I&ccb=9-4&oh=00_AfO0Rb9sK_ZesEe5VBgPUmoT4lIrAQMnjdjN0KSuiCYSEA&oe=68545C4D&_nc_sid=5b3566"
         "?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80"
     )
     try:
