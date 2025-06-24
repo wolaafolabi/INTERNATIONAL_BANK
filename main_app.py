@@ -85,7 +85,7 @@ st.markdown(
     <div style="
         position: fixed; bottom: 70px; right: 20px;
         color: gray; font-size:12px;
-    ">D.A.K.A.P. Bank © 2025</div>
+    ">D.A.KA.. Bank © 2025</div>
     """,
     unsafe_allow_html=True,
 )
